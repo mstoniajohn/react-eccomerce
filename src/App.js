@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/layout/Header';
+// import Header from './components/layout/Header';
 import NavBar from './components/NavBar';
 import { CssBaseline } from '@material-ui/core';
 import Products from './components/products/Products';
 import { commerce } from './lib/commerce';
 import Basket from './components/basket/Basket';
 import Checkout from './components/checkout/Checkout';
-import CustomCard from './components/card/CustomCard';
+// import CustomCard from './components/card/CustomCard';
 
 function App() {
 	const [products, setProducts] = useState([]);
